@@ -3362,6 +3362,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:^16.0.0":
+  version: 16.0.0
+  resolution: "dotenv@npm:16.0.0"
+  checksum: 664cebb51f0a9a1d1b930f51f0271e72e26d62feaecc9dc03df39453dd494b4e724809ca480fb3ec3213382b1ed3f791aaeb83569a137f9329ce58efd4853dbf
+  languageName: node
+  linkType: hard
+
 "dotgitignore@npm:^2.1.0":
   version: 2.1.0
   resolution: "dotgitignore@npm:2.1.0"
@@ -3793,9 +3800,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ethereum-mempool-tracker@workspace:.":
+"ethereum-tracker@workspace:.":
   version: 0.0.0-use.local
-  resolution: "ethereum-mempool-tracker@workspace:."
+  resolution: "ethereum-tracker@workspace:."
   dependencies:
     "@commitlint/cli": ^16.1.0
     "@commitlint/config-conventional": ^16.0.0
@@ -3804,6 +3811,7 @@ __metadata:
     "@typescript-eslint/eslint-plugin": ^5.11.0
     "@typescript-eslint/parser": ^5.11.0
     dot-json: ^1.2.2
+    dotenv: ^16.0.0
     eslint: ^8.8.0
     eslint-config-prettier: ^8.3.0
     eslint-plugin-import: ^2.25.4

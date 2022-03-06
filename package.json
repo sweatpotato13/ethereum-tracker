@@ -1,17 +1,17 @@
 {
-    "name": "ethereum-mempool-tracker",
+    "name": "ethereum-tracker",
     "version": "1.0.1",
-    "description": "ethereum-mempool-tracker",
+    "description": "ethereum-tracker",
     "main": "./dist/src/index.js",
     "types": "./dist/src/index.d.ts",
     "repository": {
         "type": "git",
-        "url": "https://github.com/sweatpotato13/ethereum-mempool-tracker.git"
+        "url": "https://github.com/sweatpotato13/ethereum-tracker.git"
     },
     "bugs": {
-        "url": "https://github.com/sweatpotato13/ethereum-mempool-tracker/issues"
+        "url": "https://github.com/sweatpotato13/ethereum-tracker/issues"
     },
-    "homepage": "https://github.com/sweatpotato13/ethereum-mempool-tracker",
+    "homepage": "https://github.com/sweatpotato13/ethereum-tracker",
     "files": [
         "dist"
     ],
@@ -81,6 +81,7 @@
     },
     "packageManager": "yarn@3.1.1",
     "dependencies": {
+        "dotenv": "^16.0.0",
         "ethers": "^5.5.4"
     }
 }

@@ -1,5 +1,7 @@
-var ethers = require("ethers");
-var url = "wss://mainnet.infura.io/ws/v3/aca7342bfc8847fdb211a8d06950af28";
+import * as dotenv from "dotenv";
+import { ethers } from "ethers";
+dotenv.config();
+var url = process.env.INFURA_ENDPOINT;
 
 var init = function () {
     var customWsProvider = new ethers.providers.WebSocketProvider(url);
