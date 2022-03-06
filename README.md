@@ -73,9 +73,9 @@
 
 ### Built With
 
-* [node.js](https://nextjs.org/)
-* [typescript](https://reactjs.org/)
-* [ethers](https://vuejs.org/)
+* [node.js](https://nodejs.org/)
+* [typescript](https://www.typescriptlang.org/)
+* [ethers](https://docs.ethers.io/v5/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
